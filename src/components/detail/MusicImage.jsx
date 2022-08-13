@@ -59,7 +59,7 @@ const MusicImage = () => {
           <ImageBox
             id="4"
             url={
-              "https://image.bugsm.co.kr/album/images/1000/202580/20258074.jpg"
+              "https://image.bugsm.co.kr/album/images/1000/204816/20481665.jpg"
             }
           />
         </div>

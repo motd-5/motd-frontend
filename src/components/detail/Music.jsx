@@ -5,12 +5,13 @@ import "react-h5-audio-player/lib/styles.css";
 import Comment from "../comment/Comment";
 import { useState } from "react";
 import MusicImage from "./MusicImage";
+import styled from "styled-components";
 
 const Music = () => {
   const [comment, setComment] = useState(false);
    
   return( 
-    <div className="container">
+    <Container>
       <div>
         <h1>노래 제목</h1>
         <h4>아티스트</h4>
@@ -28,8 +29,13 @@ const Music = () => {
         <button onClick={()=>setComment(!comment)}>댓글 보기</button> 
         {comment === true ? <Comment/> : null}
         
-    </div>
+    </Container>
   );
 };
+
+const Container = styled.div`
+font-family: sans-serif;
+text-align: center;
+`
 
 export default Music;
