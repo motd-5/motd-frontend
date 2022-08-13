@@ -1,0 +1,36 @@
+.container{
+    font-family: sans-serif;
+     text-align: center;
+}
+
+.img-box{
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url("https://image.bugsm.co.kr/album/images/500/204200/20420099.jpg");
+}
+
+.music-box{
+    border: 1px solid white;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 0 3px 0;
+}
+
+.comment-box{
+    max-width: 700px;
+    width: 100vw;
+    margin: 10px auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+.but-box{
+    position: relative;
+    top:  20px;
+    left: 500px;
+}
