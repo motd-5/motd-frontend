@@ -43,7 +43,7 @@ const Comment = ({ comment }) => {
 
   const onUpdatedBtnHandler = async () => {
     try {
-      const response = await axios.put(
+      await axios.put(
         `http://3.34.47.211/api/comments/${comment.commentId}`,
         {
           content: updatedComment,
